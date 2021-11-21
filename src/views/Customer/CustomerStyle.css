@@ -1,0 +1,13 @@
+.errorMsg{
+	color: #D8000C;
+}
+.ck-editor__editable {
+    min-height: 400px !important;
+}
+:host ::ng-deep .ck-editor__editable {
+    min-height: 400px !important;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }

@@ -1,0 +1,41 @@
+.ck-editor__editable {
+    min-height: 400px !important;
+}
+/*:host ::ng-deep .ck-editor__editable {
+    min-height: 400px !important;
+}*/
+.videouplpad{
+  color: green;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
+  .error_message{
+      color: red;
+  }
+  .errorMsg{
+    color: red;
+  }
+  .cardbackground{
+
+    border:"none";
+  }
+  .editform{
+    height: 400px;
+    overflow: auto;
+  }
+  .without_ampm::-webkit-datetime-edit-ampm-field {
+    display: none;
+  }
+  input[type=time]::-webkit-clear-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance:none;
+    appearance: none;
+    margin: -10px; 
+  }
+  .meterial a{
+    color: black;
+  }
